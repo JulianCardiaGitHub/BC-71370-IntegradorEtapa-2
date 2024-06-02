@@ -1,0 +1,22 @@
+body{
+@media (max-width: 576px) {
+    & { /* .main-header */
+        flex-direction: column-reverse;
+    }
+}
+}
+
+
+
+.ubicacion_conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maps-conteiner{
+    width: auto;
+    border: solid 2px;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.section-cards {
+  background-color: #dff6ff;
+  padding: 1rem;
+}
+
+.cards-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  
+
+}
+h1 {
+  color: #051367;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+.products {
+  color: #051367;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+.whatsapp {
+    background-color: #25d366;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 55px;
+    height: 55px;
+    color: white;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+  }

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Proyecto Integrador - Inicio</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu" />
+
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-bar -->
+
+      <div class="search-bar">
+        <div class="search-bar__logo-container">
+          <img class="logo" src="img/logo.png" alt="Vision Digital" />
+        </div>
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label"
+            ><img src="img/lupa.png" alt="Buscar"
+          /></label>
+          <input type="search" class="search-bar__form-search" id="busqueda" />
+          <input type="submit" class="search-bar__form-submit" value="Buscar" />
+        </form>
+        <div class="search-bar__carrito-container">
+          <img class="carrito" src="img/carrito.png" alt="Carrito" />
+        </div>
+        <div class="menu-toogle">
+          <label for="menu" class="menu-toogle__label">
+            <span class="menu-toogle__top-bread"></span>
+            <span class="menu-toogle__meat"></span>
+            <span class="menu-toogle__bottom-bread"></span>
+          </label>
+        </div>
+      </div>
+      <!-- .search-bar -->
+    </header>
+    <!-- main-header -->
+
+    <main>
+      <section class="section-cards">
+        <header class="section-cards__header">
+          <h1>Visión Digital Technology</h1>
+          <p class="products">Se encontraron 12 productos</p>
+        </header>
+
+        <div class="cards-container">
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/mx-keys-s.webp"
+                  alt="Logitech mx keys s"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">MX KEYS S</h2>
+                <div class="card__description">
+                  <p>
+                    Experimente un nuevo nivel de estado de flujo con MX Keys S:
+                    un teclado de alto rendimiento, diseñado para una escritura
+                    cómoda, rápida y fluida, con iluminación inteligente y
+                    teclas programables.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/pop-keys.webp"
+                  alt="pop-keys"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">POP KEYS</h2>
+                <div class="card__description">
+                  <p>
+                    Da rienda suelta a tu personalidad en tu escritorio y más
+                    allá con POP Keys, con una estética de escritorio llamativa
+                    y divertidas teclas de emojis personalizables.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/multidispositivo-k480.webp"
+                  alt="Teclado k480 bluethooth"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">LOGI K480</h2>
+                <div class="card__description">
+                  <p>
+                    El K480 es un confortable teclado multidispositivo que
+                    ahorra espacio y facilita la escritura en la laptop, la
+                    tablet o el celular. Duración de baterías prolongada, es lo
+                    que necesitas para una mayor productividad.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/g502-hero.webp"
+                  alt="Logitech g502 hero"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">G502 HERO</h2>
+                <div class="card__description">
+                  <p>
+                    Diseñado para un desempeño avanzado en los juegos. G502 HERO
+                    cuenta con un sensor de juegos HERO 25K con seguimiento de
+                    precisión submicrométrica, LIGHTSYNC RGB personalizable, y
+                    mucho más.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/ergo-m575.webp"
+                  alt="Ergo m575 Logitech"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">ERGO M575</h2>
+                <div class="card__description">
+                  <p>
+                    Minimiza el movimiento y maximiza el confort con ERGO M575,
+                    un trackball inalámbrico. Sin necesidad de mover el brazo
+                    para mover el cursor, tu mano y tu brazo permanecen
+                    relajados.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/mx-master-3s.webp"
+                  alt="Mx-Master-3s"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">MX MASTER 3S</h2>
+                <div class="card__description">
+                  <p>
+                    Éste es MX Master 3S. Siente cada momento de tu flujo de
+                    trabajo con más precisión, sensación táctil y desempeño,
+                    gracias a los clicks discretos y un sensor de seguimiento
+                    sobre cristal13Grosor.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/g-fits.webp"
+                  alt="Logitech-G fits"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">G FITS</h2>
+                <div class="card__description">
+                  <p>
+                    Los audífonos auténticamente inalámbricos FITS para juegos
+                    se ajustan perfectamente a tu diversión. La tecnología de
+                    moldeado LIGHTFORM proporciona un ajuste personalizado.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/zone-vibe-125.webp"
+                  alt="Zone Vibe 125"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">ZONE VIBE 125</h2>
+                <div class="card__description">
+                  <p>
+                    Auriculares inalámbricos ligeros con receptor USB: lo
+                    suficientemente profesionales para la oficina, perfectos
+                    para trabajar desde casa.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/astro+base-a50.webp"
+                  alt="Astro Base A50"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">ASTRO A50+BASE</h2>
+                <div class="card__description">
+                  <p>
+                    Auriculares inalámbricos para gaming para Xbox, PlayStation
+                    y PC / MAC *. Con un diseño revolucionario, acústica
+                    avanzada y comodidad ergonómica.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/litra-beam-LX-RGB.webp"
+                  alt="Litra-beam-LX-RGB"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">LITRA LX RGB</h2>
+                <div class="card__description">
+                  <p>
+                    Logitech Litra Beam LX es una luz de streaming de doble cara
+                    equipada con una luz de tecla en un lado que ofrece tonos de
+                    piel naturales, mientras que el otro lado ilumina tu espacio
+                    con LIGHTSYNC
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="public/img/yeti-gx.webp"
+                  alt="Yeti GX "
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">YETI GX</h2>
+                <div class="card__description">
+                  <p>
+                    Es un micrófono RGB premium para juegos con LIGHTSYNC. Este
+                    micrófono USB rechaza el ruido y los clics de las teclas,
+                    mejora el sonido y garantiza un audio de alta calidad
+                    constante mientras transmite.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+
+          <div class="card">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  src="img/Logitech-Stream-Cam.webp"
+                  alt="Stream Cam"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">STREAM CAM</h2>
+                <div class="card__description">
+                  <p>
+                    StreamCam hace streaming y graba con resolución Full HD
+                    1080p a 60 fps, ofreciendo excepcional video con movimiento
+                    fluido para tu mundo online.
+                  </p>
+                  <div class="add-carrito">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- .card -->
+        </div>
+      </section>
+      <!-- .section-cards -->
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank" class="social-icon">
+            <i class="fab-fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <i class="fab-fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="social-icon">
+            <i class="fab-fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon">
+            <i class="fab-fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p class="copyright">© 2024 Todos los derechos reservados.</p>
+
+        <p class="vdt">Vision Digital Technology</p>
+      </div>
+    </footer>
+    <div class="whatsapp"><i class="fa-brands fa-whatsapp fa-2xl"></i></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
