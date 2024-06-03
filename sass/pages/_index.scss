@@ -36,4 +36,19 @@ h1 {
     line-height: 55px;
     text-align: center;
     border-radius: 50%;
+
+    @media (max-width: 576px){
+      background-color: #25d366;
+      position: fixed;
+      bottom: 5px;
+      right: 5px;
+      width: 55px;
+      height: 55px;
+      color: white;
+      line-height: 55px;
+      text-align: center;
+      border-radius: 50%;
+  
+
+    }
   }
