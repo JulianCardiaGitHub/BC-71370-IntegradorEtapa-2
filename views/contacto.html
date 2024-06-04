@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Proyecto Integrador - Contacto</title>
 </head>
 <body>
@@ -45,6 +52,97 @@
 
       <main>
         <h1>Contacto</h1>
+
+        <fieldset class="datos-per">
+          <legend>Datos Personales</legend>
+  
+          <div class="dp">
+            <div class="titulo"><label for="lbl-nombre">Nombre:*</label></div>
+            <input type="text" id="lbl-nombre" required/>
+          </div>
+          <div class="dp">
+            <div class="titulo"><label for="lbl-apellido">Apellido:*</label></div>
+            <input type="text" id="lbl-apellido" required/>
+          </div>
+          <div class="dp">
+            <div class="titulo">
+              <label for="lbl-documento">Documento:*</label>
+            </div>
+            <input type="text" id="lbl-documento" required/>
+          </div>
+          
+  
+          <div class="dp">
+            <div class="titulo">
+              <label for="lbl-descripcion">Contanos un poco de vos...</label>
+            </div>
+            <textarea
+              name="info"
+              id="lbl-descripcion"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          
+        </fieldset>
+  
+        <div class="punteado"></div>
+  
+        <fieldset class="datos-con">
+          <legend>Datos de Contacto</legend>
+          <div class="dc">
+            <div class="titulo"><label for="lbl-telefono">Teléfono:</label></div>
+            <input
+              class="input"
+              type="text"
+              id="lbl-telefono"
+              name="telefono"
+              placeholder="Codigo de area y Numero"
+            />
+          </div>
+          <div class="dc">
+            <div class="titulo">
+              <label for="lbl-email">Direcion de correo electrónico:</label>
+            </div>
+            <input
+              class="input"
+              type="email"
+              id="lbl-email"
+              name="email"
+              placeholder="Ej:mail@gmail.com"
+            />
+          </div>
+        </fieldset>
+  
+        <div class="punteado"></div>
+  
+        
+      
+  
+        <div class="acepto">
+          <input type="checkbox" id="acepto" name="acepto" value="acepto" required />
+          <label for="acepto">Acepto las condiciones*</label>
+        </div>
+  
+        <div class="novedades">
+          <input
+            type="checkbox"
+            id="novedades"
+            name="novedades"
+            value="novedades"
+          />
+          <label for="novedades">Deseo recibir novedades</label>
+        </div>
+      
+        <p class="campo">*:campo obligatorio.</p>
+      
+        <div class="botones">
+          <button class="afiliacion">Iniciar afiliación</button>
+          <button class="restablecer">Restablecer</button>
+        </div>
+      
+      </main>
+    </form>
 
         
 
