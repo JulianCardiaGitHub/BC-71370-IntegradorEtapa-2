@@ -20,3 +20,36 @@ body{
 h2{
     text-align: center;
 }
+
+.footer {
+    background-color:#051367;
+    color:#5D8BF4;
+    padding: 20px 0;
+    
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        .social-icon {
+            color: #5D8BF4;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s;
+
+            &:hover {
+                color: #FFA500;
+            }
+
+            i {
+                display: inline-block;
+            }
+        }
+    }
+}
