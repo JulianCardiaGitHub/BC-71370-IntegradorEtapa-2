@@ -8,13 +8,14 @@
 /* -------------------------------------------------------- */
 
 .main-header {
-  display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 
-  @media (max-width: 576px) {
+  @media (min-width: 576px) {
     & {
       /* .main-header */
-      flex-direction: column-reverse;
+      
+      display: flex;
+  flex-direction: column;
     }
   }
 }

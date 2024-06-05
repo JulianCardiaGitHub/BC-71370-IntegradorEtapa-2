@@ -30,15 +30,20 @@
             
           </ul>
         </nav> <!-- .nav-bar -->
-  
         <div class="search-bar">
-          <div class="search-bar__logo-container">Logo</div>
+          <div class="search-bar__logo-container">
+            <img class="logo" src="/img/logo.png" alt="Vision Digital" />
+          </div>
           <form action="#" class="search-bar__form-container">
-            <label for="busqueda" class="search-bar__form-label">Buscar</label>
-            <input type="search" class="search-bar__form-search" id="busqueda">
-            <input type="submit" class="search-bar__form-submit" value="Buscar">
+            <label for="busqueda" class="search-bar__form-label"
+              ><img src="/img/lupa.png" alt="Buscar"
+            /></label>
+            <input type="search" class="search-bar__form-search" id="busqueda" />
+            <input type="submit" class="search-bar__form-submit" value="Buscar" />
           </form>
-          <div class="search-bar__carrito-container">C</div>
+          <div class="search-bar__carrito-container">
+            <img class="carrito" src="/img/carrito.png" alt="Carrito" />
+          </div>
           <div class="menu-toogle">
             <label for="menu" class="menu-toogle__label">
               <span class="menu-toogle__top-bread"></span>
@@ -46,35 +51,38 @@
               <span class="menu-toogle__bottom-bread"></span>
             </label>
           </div>
+        </div>
+        
         </div> <!-- .search-bar -->
   
       </header> <!-- main-header -->
 
       <main>
+
         <h1>Contacto</h1>
 
-        <fieldset class="datos-per">
-          <legend>Datos Personales</legend>
+        <fieldset class="information">
+          <legend>Completa tus datos</legend>
   
-          <div class="dp">
-            <div class="titulo"><label for="lbl-nombre">Nombre:*</label></div>
+          <div class="information__personal">
+            <div class="title"><label for="lbl-name">Nombre:*</label></div>
             <input type="text" id="lbl-nombre" required/>
           </div>
-          <div class="dp">
-            <div class="titulo"><label for="lbl-apellido">Apellido:*</label></div>
+          <div class="information__personal">
+            <div class="title"><label for="lbl-lastname">Apellido:*</label></div>
             <input type="text" id="lbl-apellido" required/>
           </div>
-          <div class="dp">
-            <div class="titulo">
-              <label for="lbl-documento">Documento:*</label>
+          <div class="information__personal">
+            <div class="title">
+              <label for="lbl-document">Documento:*</label>
             </div>
-            <input type="text" id="lbl-documento" required/>
+            <input type="text" id="lbl-document" required/>
           </div>
           
   
-          <div class="dp">
-            <div class="titulo">
-              <label for="lbl-descripcion">Contanos un poco de vos...</label>
+          <div class="information__personal">
+            <div class="title">
+              <label for="lbl-descripcion">Dejanos tu mensaje...</label>
             </div>
             <textarea
               name="info"
@@ -86,11 +94,11 @@
           
         </fieldset>
   
-        <div class="punteado"></div>
+        
   
-        <fieldset class="datos-con">
+        <fieldset class="contact">
           <legend>Datos de Contacto</legend>
-          <div class="dc">
+          <div class="contac__contact-information">
             <div class="titulo"><label for="lbl-telefono">Teléfono:</label></div>
             <input
               class="input"
@@ -100,7 +108,7 @@
               placeholder="Codigo de area y Numero"
             />
           </div>
-          <div class="dc">
+          <div class="contac__contact-information">
             <div class="titulo">
               <label for="lbl-email">Direcion de correo electrónico:</label>
             </div>
@@ -114,29 +122,26 @@
           </div>
         </fieldset>
   
-        <div class="punteado"></div>
+        
   
         
       
   
-        <div class="acepto">
-          <input type="checkbox" id="acepto" name="acepto" value="acepto" required />
-          <label for="acepto">Acepto las condiciones*</label>
-        </div>
+        
   
-        <div class="novedades">
+        <div class="news">
           <input
             type="checkbox"
             id="novedades"
             name="novedades"
             value="novedades"
           />
-          <label for="novedades">Deseo recibir novedades</label>
+          <label for="news">Deseo recibir novedades</label>
         </div>
       
-        <p class="campo">*:campo obligatorio.</p>
+        <p class="mandatory-field">*:campo obligatorio.</p>
       
-        <div class="botones">
+        <div class="buttons">
           <button class="afiliacion">Iniciar afiliación</button>
           <button class="restablecer">Restablecer</button>
         </div>
