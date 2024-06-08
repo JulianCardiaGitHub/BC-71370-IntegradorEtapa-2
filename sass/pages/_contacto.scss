@@ -63,6 +63,7 @@ body{
         border-radius: 10px 10px 45px 10px;
     -webkit-border-radius: 10px 10px 45px 10px;
     -moz-border-radius: 10px 10px 45px 10px;
+    border-color: #FFA500;
 
      }
 .title{
@@ -85,6 +86,7 @@ box-shadow: 16px 16px 13px -12px rgba(0,0,0,0.75);
 
 }
 .contact{
+    padding-bottom: 2em;
     text-align: center;
     border-color: #FFA500;
     box-shadow: 16px 16px 30px -9px rgba(0,0,0,0.75);
@@ -111,6 +113,10 @@ box-shadow: 16px 16px 13px -12px rgba(0,0,0,0.75);
     .title{
         font-size: 1.5em;
     }
+}
+#lbl-name, #lbl-tel, #lbl-lastname, #lbl-document, #lbl-email{
+    border-radius: 1em;
+    border-color: #FFA500;
 }
 
 
