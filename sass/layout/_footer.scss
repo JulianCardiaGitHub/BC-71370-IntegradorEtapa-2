@@ -21,7 +21,7 @@
             transition: color 0.3s;
 
             &:hover {
-                color: #FFA500;
+                color: var(--color-bordes-iconos-plas);
             }
 
             i {
@@ -39,6 +39,6 @@
         font-size: 2em;
         font-weight: 700;
         padding: 1rem;
-        border-top: #5D8BF4 solid 2px;
+        border-top: var(--color-terciario-celestito) solid 2px;
     }
 }

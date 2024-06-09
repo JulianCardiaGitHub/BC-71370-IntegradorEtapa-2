@@ -28,7 +28,7 @@
   }
 
   &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
-    background-color: #051367;
+    background-color: var(--color-primario-oscuro);
   }
 }
 
@@ -37,7 +37,7 @@
 /* -------------------------------------------------------- */
 
 .nav-bar {
-  background-color: #051367;
+  background-color: var(--color-primario-oscuro);
 
   &__nav-list {
     /* .nav-bar__nav-list */
@@ -54,20 +54,20 @@
 
   &__nav-item {
     text-align: center;
-    background-color: #dff6ff;
+    background-color: var(--color-primario-claro);
   }
 
   &__nav-link {
     display: block;
-    color: #dff6ff;
-    background-color: #051367;
+    color: var(--color-primario-claro);
+    background-color: var(--color-primario-oscuro);
 
     padding: 1rem 3rem;
     text-decoration: none;
   }
   &:hover &__nav-link,
   &:focus &__nav-link {
-    color: #ffa500;
+    color: var(--color-bordes-iconos-plas);
   }
 
   @media (max-width: 576px) {
@@ -83,7 +83,7 @@
 /* -------------------------------------------------------- */
 
 .search-bar {
-  background-color: #051367;
+  background-color: var(--color-primario-oscuro);
   display: flex;
   justify-content: space-around;
 
@@ -98,26 +98,26 @@
   &__form-container {
     padding: 1rem;
 
-    background-color: #051367;
+    background-color: var(--color-primario-oscuro);
     display: flex;
     flex-basis: 100%;
     justify-content: center;
   }
 
   &__form-label {
-    background-color: #051367;
+    background-color: var(--color-primario-oscuro);
     margin: 4px;
   }
 
   &__form-search {
-    background-color: #dff6ff;
+    background-color: var(--color-primario-claro);
     width: 70%;
     margin: 4px;
     border-radius: 1em;
   }
 
   &__form-submit {
-    background-color: #5d8bf4;
+    background-color: var(--color-terciario-celestito);
     color: white;
     margin: 4px;
     border-radius: 1em;
@@ -126,7 +126,7 @@
 
   &__carrito-container {
     flex: 0 0 3rem; /* shorthand (grow shrink basis */
-    background-color: #051367;
+    background-color: var(--color-primario-oscuro);
     height: 50%;
   }
   .carrito {
@@ -142,14 +142,14 @@
 
 .menu-toogle {
   display: none;
-  background-color: #ffa500;
+  background-color: var(--color-bordes-iconos-plas);
   flex: 0 0 3rem;
   position: relative;
   cursor: pointer;
 
   &__label {
     display: block;
-    background-color: #2d31fa;
+    background-color: var(--color-secundario-azul-claro);
     height: 100%;
   }
 
@@ -157,7 +157,7 @@
   &__meat,
   &__bottom-bread {
     display: block;
-    background-color: #ffa500;
+    background-color: var(--color-bordes-iconos-plas);
     height: 0.2rem;
     position: absolute;
     left: 0.5rem;
