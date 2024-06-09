@@ -27,7 +27,7 @@
 }
 
 .add-carrito{
-    color:#FFA500 ;
+    color:var(--color-bordes-iconos-plas);
     font-size: 2em;
     position: absolute;
     bottom: 395px;
@@ -40,7 +40,7 @@
 .card__article{
 @media (max-width: 576px) {
 .add-carrito {
-    color:#FFA500 ;
+    color:var(--color-bordes-iconos-plas);
     font-size: 2em;
     position: absolute;
     top: 160px;
@@ -52,14 +52,14 @@
     width: 220px;
     max-width: 300px;
     height: 200px;
-    background-color: #DFF6FF;
+    background-color:var(--color-primario-claro);
     overflow: hidden;
     border-radius: 22px 25px 117px 20px;
     box-shadow: 16px 16px 30px -9px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 16px 16px 30px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 16px 16px 30px -9px rgba(0, 0, 0, 0.75);
     transition: 0.2s;
-    border:solid 2px orange;
+    border:solid 2px var(--color-bordes-iconos-plas);
     position: relative;
 
     &:hover,
@@ -115,14 +115,14 @@
         width: 280px;
         max-width: 300px;
         height: 450px;
-        background-color: #DFF6FF;
+        background-color: var(--color-primario-claro);
         overflow: hidden;
         border-radius: 22px 25px 117px 20px;
         box-shadow: 16px 16px 30px -9px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 16px 16px 30px -9px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 16px 16px 30px -9px rgba(0, 0, 0, 0.75);
         transition: 0.2s;
-        border:solid 2px orange;
+        border:solid 2px var(--color-bordes-iconos-plas);
         position: relative;
         margin: 0.5em;
         
