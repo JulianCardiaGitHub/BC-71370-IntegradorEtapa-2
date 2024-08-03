@@ -12,6 +12,7 @@
         { "id": 10, "nombre": "LITRA LX RGB", "foto": "img/litra-beam-LX-RGB.webp", "descripcion": "Logitech Litra Beam LX es una luz de streaming de doble cara equipada con una luz de tecla en un lado que ofrece tonos de piel naturales, mientras que el otro lado ilumina tu espacio con LIGHTSYNC", "precio": 145100},
         { "id": 11, "nombre": "YETI GX", "foto": "public/img/yeti-gx.webp", "descripcion": "Es un micrófono RGB premium para juegos con LIGHTSYNC. Este micrófono USB rechaza el ruido y los clics de las teclas, mejora el sonido y garantiza un audio de alta calidad constante mientras transmite.", "precio": 130000 },
         { "id": 12, "nombre": "STREAM CAM", "foto": "img/Logitech-Stream-Cam.webp", "descripcion": "StreamCam hace streaming y graba con resolución Full HD 1080p a 60 fps, ofreciendo excepcional video con movimiento fluido para tu mundo online", "precio": 76500 }
+     
         
    
     ]
